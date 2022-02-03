@@ -14,7 +14,7 @@ public class Aula03TiposPrimitivosExercicio {
         float salario = scanner.nextFloat();
         System.out.print("Digite a data (dd/mm/aa): ");
         String data = scanner.next();
-        System.out.print("Eu " + nome + ", morando no endereço " + endereco + "\nconfirmo que recebi o salário de " + salario + ", no data de " + data+".");
+        System.out.print("Eu " + nome + ", morando no endereço " + endereco + "\nconfirmo que recebi o salário de " + salario + ", no data de " + data + ".");
         System.out.print("\nConfirma o Recebimento? (S/N): ");
         char confirmacao = scanner.next().charAt(0);
         if (confirmacao == 'S' || confirmacao == 's') {
@@ -23,5 +23,6 @@ public class Aula03TiposPrimitivosExercicio {
             System.out.println("Salario nao confirmado");
 
         }
+        scanner.close();
     }
 }
