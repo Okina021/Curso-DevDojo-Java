@@ -9,5 +9,6 @@ public class CalculadoraTest03 {
         System.out.println(result);
         result = calculadora.divideDoisNumeros2(20, 0);
         System.out.println(result);
+        calculadora.divideDoisNumeros3(5,3);
     }
 }

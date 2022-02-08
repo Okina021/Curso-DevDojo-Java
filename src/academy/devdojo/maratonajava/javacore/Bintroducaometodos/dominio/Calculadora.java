@@ -42,5 +42,11 @@ public class Calculadora {
             return 0;
         }
     }
-    public void divideDoisNumeros3
+    public void divideDoisNumeros3(double num1, double num2){
+        if(num1 == 0 || num2 == 0){
+            System.out.println("Impossivel dividir por zero");
+            return;
+        }
+        System.out.println(num1/num2);
+    }
 }
